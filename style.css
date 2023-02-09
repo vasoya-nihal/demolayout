@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+  padding-left: 65px;
+  padding-right: 570px;
+}
+
+nav{
+    display: flex;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 58px;
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.headmenu{
+    justify-content:end;
+}
+.serch img{
+    height: 25px;
+    width: 25px;
+}
