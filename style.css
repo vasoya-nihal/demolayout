@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +21,62 @@ ul{
     align-items: center;
     height: 58px;
    
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: -50px;
+    left: 6px;
+ 
+  }
+  
+  .bottom-left pre{
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  color: aliceblue;
+}
+.col-sm-6 img{
+    height: 225px;
+     width: 550px; 
+     padding-left: 25px; 
+     margin-left: 25px;
+        
+
+}
+.image1 img{
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 400px;
+    height: 320px;
+    position: relative;
+}
+.imgleft1 pre{
+    position: absolute;
+    bottom: -225px;
+    margin-left: 65px;
+    background-color: white;
+    color: black;
+    height: 110px;
+}
+.centerimage{
+    display: flex;
+    /* flex-direction: column; */
+} 
+.collum{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: inherit;
+    justify-content: center;
+
+}
+side1{
+    width: 400px; 
+    height: 170px;
+    padding-left: 20px;
 }
 nav ul li{
     list-style: none;
