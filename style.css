@@ -12,7 +12,7 @@
 }
 
 nav{
-    display: flex;
+    display: flex4;
 
 }
 ul{
@@ -50,8 +50,8 @@ ul{
 .image1 img{
     margin-top: 20px;
     margin-left: 175px;
-    width: 400px;
-    height: 320px;
+    width: 600px;
+    height: 480px;
     position: relative;
 }
 .imgleft1 pre{
@@ -71,12 +71,27 @@ ul{
     flex-direction: column;
     flex-wrap: inherit;
     justify-content: center;
+    margin-top: 21px;
+    position: relative;  
+
 
 }
-side1{
-    width: 400px; 
-    height: 170px;
-    padding-left: 20px;
+ .text1 pre{
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+.side1 img{
+    width: 420px; 
+    height: 237px;
+    padding-left: 10px;
+}
+
+.side2 img{
+    width: 420px; 
+    height: 237px;
+    padding-left: 10px;
+    margin-top: 5px;
 }
 nav ul li{
     list-style: none;
